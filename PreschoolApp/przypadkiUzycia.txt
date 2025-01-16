@@ -1,0 +1,27 @@
+Admin
+  dodaje eventy
+  dodaje przedmioty
+  dodaje grupy
+  wyswietla wszystkich uzytkownikow 
+  nadaje im role
+  wyswietla wszystkie dzieci
+  moze usuwac konta
+  zbiera raporty o obecnosciach
+  
+Nauczyciel
+  dodaje opinie o uczniu
+  tworzy konto (jako default guest)
+  dodaje eventy
+  sprawdza obecnosc
+  odczytuje wiadomosci
+  wysyla wiadomosci
+  
+Rodzic
+  tworzy konto (jako default guest)
+  sprawdza profil dziecka
+  odczytuje wiadomosci
+  wysyla wiadomosci
+  odczytuje opinie
+  dodaje szczegolowe dane o sobie i dziecku
+  
+   

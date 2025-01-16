@@ -1,0 +1,34 @@
+@PreschoolApp_HostAddress = http://localhost:5042
+
+GET {{PreschoolApp_HostAddress}}/api/users
+Accept: application.json
+
+###
+
+DELETE {{PreschoolApp_HostAddress}}/api/users/5
+
+###
+
+POST {{PreschoolApp_HostAddress}}/api/auth
+Content-Type: application/json
+
+{
+  "email": "alice.johnsondf@example.com",
+  "password": "hashedpassword"
+}
+
+###
+
+POST {{PreschoolApp_HostAddress}}/api/users/register
+Content-Type: application/json
+
+{
+  "FirstName": "And",
+  "LastName": "Pol",
+  "Email": "and.pol@gmail.com",
+  "Password": "paswd"
+}
+
+###
+
+GET http://localhost:5042/api/users/5
