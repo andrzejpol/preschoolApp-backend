@@ -12,6 +12,7 @@ public class PreschoolDbContext: DbContext
     public DbSet<Student> Students { get; set; }
     public DbSet<Event> Events { get; set; }
     public DbSet<Attendance> Attendances { get; set; }
+    public DbSet<Review> Reviews { get; set; }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PreschoolApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0d062c36e1d803ee18738e201187e2b4ed3da3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec87fba8e1e1d9e0b645183d419b7aa8cd1a9187")]
 [assembly: System.Reflection.AssemblyProductAttribute("PreschoolApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PreschoolApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
