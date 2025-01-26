@@ -7,7 +7,7 @@ namespace PreschoolApp.Controllers
 {
     [ApiController]
     [Route("api/groups")]
-    public class GroupsController : Controller
+    public class GroupsController : ControllerBase
     {
         private readonly IGroupService _groupService;
 
